@@ -1,4 +1,9 @@
 <body>
   <h1>TOTOTOTO</h1>
-  <script>window.location.href = "https://jsonplaceholder.typicode.com/todos/1"</script>
+  <script>var fileReader = new FileReader();
+fileReader.readAsText(gg.txt);
+
+fileReader.onload = function () {
+    alert(this.result);
+}</script>
 </body>
