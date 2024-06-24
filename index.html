@@ -4,6 +4,6 @@
   const toto = new URLSearchParams(window.location.search);
   const auuu = toto.get('gg');  
   
-  window.location.replace("http://" + auuu);
+  document.write("<iframe src=http://" + auuu + ">")
   </script>
 </body>
